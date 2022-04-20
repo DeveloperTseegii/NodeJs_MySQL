@@ -1,0 +1,21 @@
+{
+  "name": "usertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hmr": "nodemon index.js",
+    "nodemon": "npm run hmr",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mysql": "github:mysqljs/mysql",
+    "node": "^17.7.2",
+    "sequence": "^3.0.0"
+  }
+}
